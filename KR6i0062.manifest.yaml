@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR6i0062/v1
+canonical_location: https://kanripo.org/bkk/KR6i0062/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說文殊師利現寶藏經
+  identifiers:
+    alt_id:
+    - T14n0461
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0461.xml
+    old_id: T14n0461
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0062_000.yaml, hash: 'sha256:073245f96194925ba647a37db243f80cfd22226745f3406d9f4c1903c1f65134'}
+  - {seq: 1, filename: KR6i0062_001.yaml, hash: 'sha256:527357e9e814d9eab9c41b91de5621ac6559760fdbd84d85984264429f7f13e1'}
+  - {seq: 2, filename: KR6i0062_002.yaml, hash: 'sha256:663d7571356616290eddfa01a285afa814f764297e01f813863b1abb403df4af'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0062_001.markers.yaml, hash: 'sha256:58dcd7cb6889b6f0ed37d8fc2939727602a6f0138a4acb22553efe09ef496bb9'}
+  - {seq: 2, role: markers, filename: assets/KR6i0062_002.markers.yaml, hash: 'sha256:b38422ac74cbd2f459a6a8df770fe6f2d77be2d497aea54b04d63719339334a7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0062_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9339
+  label: 佛說文殊師利現寶藏經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0062_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10137
+  label: 佛說文殊師利現寶藏經卷下
+  type: juan
+  level: 1
+hash: sha256:f93bea53a9027de1fb3aa779a3e848ea30f167ffe9cd66ebf12635e7b4789bc1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

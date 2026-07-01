@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0062/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說文殊師利現寶藏經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0461.xml
+    old_id: T14n0461
+hash: sha256:073245f96194925ba647a37db243f80cfd22226745f3406d9f4c1903c1f65134
